@@ -1,0 +1,132 @@
+input: ./pointersorter “thing stuff otherstuff blarp”
+expected:
+blarp
+otherstuff
+stuff
+thing
+actual:
+blarp
+otherstuff
+stuff
+thing
+
+input: ./pointersorter “thing1stuff3otherstuff,blarp”
+expected:
+blarp
+otherstuff
+stuff
+thing
+actual:
+blarp
+otherstuff
+stuff
+thing
+
+input: ./pointsorter "
+
+    beneficiary
+    extraterrestrial
+    refrigerator
+    radiation 
+    sickness
+    operational
+    organisation
+    disability
+    contemporary
+    accumulation
+    possibility
+    discrimination
+    supplementary
+    hospitality
+    personality
+    environmental
+    examination
+    constitutional
+    laboratory
+    consideration
+    characteristic
+    administration
+    superintendent
+    investigation
+    sensitivity
+    anniversary
+    credibility
+    qualification
+    anticipation
+
+"
+expected:
+
+accumulation
+administration
+anniversary
+anticipation
+beneficiary
+characteristic
+consideration
+constitutional
+contemporary
+credibility
+disability
+discrimination
+environmental
+examination
+extraterrestrial
+hospitality
+investigation
+laboratory
+operational
+organisation
+personality
+possibility
+qualification
+radiation 
+refrigerator
+sensitivity
+sickness
+superintendent
+supplementary
+
+actual:
+
+accumulation
+administration
+anniversary
+anticipation
+beneficiary
+characteristic
+consideration
+constitutional
+contemporary
+credibility
+disability
+discrimination
+environmental
+examination
+extraterrestrial
+hospitality
+investigation
+laboratory
+operational
+organisation
+personality
+possibility
+qualification
+radiation 
+refrigerator
+sensitivity
+sickness
+superintendent
+supplementary
+
+input: ./pointsorter "cat\$dog\"apple"
+expected:
+apple
+cat
+dog
+actual
+apple
+cat
+dog
+
+
