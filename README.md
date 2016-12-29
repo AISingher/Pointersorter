@@ -4,7 +4,11 @@ Tokenize and alphabetically sort a string of words seperated by any non-alphabet
 
 Example:
 ./pointersorter “thing1stuff3otherstuff,blarp”
+
 blarp
+
 otherstuff
+
 stuff
+
 thing
